@@ -11,7 +11,7 @@ for b in range(0,len(strn1[0])):
     if(flag==False):
         break
     s=1
-    while(s<a and strn1[0][b]==strn1[s][y]):
+    while(s<x and strn1[0][y]==strn1[s][y]):
         s+=1
     if(s==x):
         z+=1
