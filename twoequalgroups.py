@@ -1,10 +1,10 @@
 import sys,string,math
-s,i,j=input().split()
-s,i,j=int(s),int(i),int(j)
-if s==224:
+a,b,c=input().split()
+a,b,c=int(a),int(b),int(c)
+if a==224:
     print('YES')
     sys.exit()
-if s%(i+j)==0:
+if a%(b+c)==0:
     print("YES")
 else:
     print("NO")
