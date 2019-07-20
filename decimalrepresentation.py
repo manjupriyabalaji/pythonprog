@@ -1,7 +1,7 @@
-nii=int(input())
-a1=list(map(int,input().split()))
-a1=[bin(i) for i in a1]
-a1.sort(reverse=True)
-a1=[int(y,2) for y in a1]
-for i in range(0,nii):
- print(a1[i])
+mss=int(input())
+x1=list(map(int,input().split()))
+x1=[bin(j) for j in x1]
+x1.sort(reverse=True)
+x1=[int(p,2) for p in x1]
+for j in range(0,mss):
+ print(x1[j])
