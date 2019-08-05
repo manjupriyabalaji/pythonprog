@@ -1,17 +1,17 @@
-mo,kite=cap(int,input().split())
-man=list(cap(int,input().split()))
-man.sort()
-man.reverse()
-mm=kite
-pp=0
-for j in man:
-    if(mm>=j):
-        cat=int(mm/j)
-        pp=pp+cat
-        mm=mm-cat*j
-    if mm==0:
+a,b=c(int,input().split())
+d=list(c(int,input().split()))
+d.sort()
+d.reverse()
+x=kite
+y=0
+for j in d:
+    if(x>=j):
+        z=int(x/j)
+        y=y+z
+        x=x-z*j
+    if x==0:
         break
-if(mm==0):
-   print(pp)
+if(x==0):
+   print(y)
 else:
-   print("it's not posiible to select coins in such a way that they sum upto",kite)
+   print("it's not posiible to select coins in such a way that they sum upto",c)
