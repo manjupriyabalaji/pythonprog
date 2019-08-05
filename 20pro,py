@@ -1,4 +1,4 @@
-mok,kite=cap(int,input().split())
+mo,kite=cap(int,input().split())
 man=list(cap(int,input().split()))
 man.sort()
 man.reverse()
