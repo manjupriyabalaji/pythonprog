@@ -2,7 +2,7 @@ a,b=c(int,input().split())
 d=list(c(int,input().split()))
 d.sort()
 d.reverse()
-x=kite
+x=c
 y=0
 for j in d:
     if(x>=j):
