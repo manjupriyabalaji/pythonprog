@@ -1,0 +1,20 @@
+s=input()
+m=len(s26)
+j=0
+while(j<m):
+    mt=0
+    k=0
+    for l in range(len(s)):
+        k+=1
+        if(s[j]==s[l]):
+            if(k>mt):
+                mt=k
+            k=0
+        if(k>m):
+            break
+    if(k>mt):
+        mt=k
+    if(mt<m):
+        m=mt
+    j+=1
+print(m)
